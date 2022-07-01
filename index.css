@@ -1,9 +1,14 @@
 body {
     text-align: center;
 }
-a[type="image"]{
+p{
     text-align: right;
 }
-a[type="advanced"]{
-    text-align: right;
+
+input[type="text"]{
+    padding: .5em;
+    border-radius: 25px;
+    border: solid 1px rgb(196, 196, 196);
+    width: 40em;
+    height: 2em;
 }
