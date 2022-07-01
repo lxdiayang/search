@@ -1,0 +1,9 @@
+body {
+    text-align: center;
+}
+a[type="image"]{
+    text-align: right;
+}
+a[type="advanced"]{
+    text-align: right;
+}
