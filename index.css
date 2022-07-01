@@ -6,11 +6,13 @@ p{
 }
 
 input[type="text"]{
-    padding: .5em;
+    padding: .5em 1em;
     border-radius: 25px;
     border: solid 1px rgb(196, 196, 196);
     width: 41.5em;
     height: 2.25em;
+    font-size: 14px;
+    font-family: Roboto, arial, sans-serif;
 }
 
 input[type="submit"]{
@@ -18,7 +20,7 @@ input[type="submit"]{
     border: 1px solid #f8f9fa;
     border-radius: 4px;
     color: #3c4043;
-    font-family: Roboto,arial,sans-serif;
+    font-family: Roboto, arial, sans-serif;
     font-size: 14px;
     margin: 11px 4px;
     padding: 0 16px;
