@@ -3,11 +3,21 @@
     <head>
         <title>Image Search</title>
     </head>
+    <link rel="stylesheet" href = "image.css">
     <body>
-        <a type="back" href = "index.html"></a>
-        <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+            <p type="back_button">
+                <a type="back" href = "index.html">Back</a>
+            </p>
+            <br><br>
+            <img src="https://images.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+            <p type = "images icon">
+                Images
+            </p>
+            <br><br><br>
+            <form action="https://www.google.com/search">
+                <input type="hidden" name="tbm" value="isch">
+                <input type="text" name="q">
+                <input type="submit" value="Image Search">
+            </form>
     </body>
 </html>

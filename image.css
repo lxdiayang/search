@@ -1,3 +1,42 @@
-a[type="back"]{
+p[type="back_button"]{
     text-align: left;
+}
+
+p[type="images icon"]{
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    position: absolute;
+    left: 440px;
+    bottom: 510px;
+}
+
+body {
+    text-align: center;
+}
+
+input[type="text"]{
+    padding: .5em 1em;
+    border-radius: 25px;
+    border: solid 1px rgb(196, 196, 196);
+    width: 41.5em;
+    height: 2.25em;
+    font-size: 14px;
+    font-family: Roboto, arial, sans-serif;
+}
+
+input[type="submit"]{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Roboto, arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
 }
