@@ -1,3 +1,37 @@
-a[type="back"]{
-    text-align: left;
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p[type="advanced search header"]{
+    color: #d93025;
+    font-size: 20px;
+}
+
+div[class="main"]{
+    padding-left: 3em;
+}
+
+input{
+    width: 425px;
+    height: 20px;
+}
+
+label{
+    display: inline-block;
+    width: 200px;
+    margin-top: 1em;
+    font-size: 14px;
+}
+
+input[type="submit"]{
+    width: 130px;
+    height: 20px;
+    padding-top: .5em;
+    padding-bottom: 1.5em;
+    text-align:center;
+    color:white;
+    background-color:#4d90fe;
+    border-color:transparent;
+    font-weight:bold;
+    margin-top: 1em;
 }

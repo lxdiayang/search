@@ -2,12 +2,39 @@
 <html lang="en">
     <head>
         <title>Advanced Search</title>
+        <link rel="stylesheet" href = "advanced.css">
     </head>
+    
     <body>
-        <a type="back" href = "index.html">Back</a>
-        <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
-    </body>
+        <p type="back button">
+            <a type="back" href = "index.html">Back</a>
+        </p>
+        <div class="main">
+            <p type="advanced search header">Advanced Search</p>
+            <div class = "fields">
+                <p type ="find pages header">Find pages with...</p>
+                <form action="https://www.google.com/search">
+                    
+                    <label for="all these words">all these words:</label>
+                    <input type="all these words" name="q">
+                    <br>
+
+                    <label for="this exact word or phrase">this exact word or phrase:</label>
+                    <input type="this exact word or phrase" name="q">
+                    <br>
+
+                    <label for="any of these words">any of these words:</label>
+                    <input type="any of these words" name="q">
+                    <br>
+
+                    <label for="none of these words">none of these words:</label>
+                    <input type="none of these words" name="q">
+                    
+                    <br>
+                    <input type="submit" value="Advanced Search">
+                </form>
+            </div>
+            
+        </div>
+    </bod>
 </html>
