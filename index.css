@@ -1,12 +1,6 @@
 body {
     text-align: center;
 }
-p{
-    text-align: right;
-    padding: 5px;
-    margin: 0 5px;
-    color: #202124;
-}
 
 input[type="text"]{
     padding: .5em 1em;
@@ -38,6 +32,9 @@ div[class="search buttons"]{
     text-align: center;
 }
 
-div[class="image and advanced links"]{
+div{
     text-align: right;
 }
+
+
+
