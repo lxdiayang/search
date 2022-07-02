@@ -11,30 +11,30 @@
         </p>
         <div class="main">
             <p type="advanced search header">Advanced Search</p>
-            <div class = "fields">
+            <fieldset>
                 <p type ="find pages header">Find pages with...</p>
                 <form action="https://www.google.com/search">
                     
                     <label for="all these words">all these words:</label>
-                    <input type="all these words" name="q">
+                    <input type="all these words" name="as_q">
                     <br>
 
                     <label for="this exact word or phrase">this exact word or phrase:</label>
-                    <input type="this exact word or phrase" name="q">
+                    <input type="this exact word or phrase" name="as_epq">
                     <br>
 
                     <label for="any of these words">any of these words:</label>
-                    <input type="any of these words" name="q">
+                    <input type="any of these words" name="as_oq">
                     <br>
 
                     <label for="none of these words">none of these words:</label>
-                    <input type="none of these words" name="q">
+                    <input type="none of these words" name="as_eq">
                     
-                    <br>
-                    <input type="submit" value="Advanced Search">
+                    <p type="button">
+                        <input type="submit" value="Advanced Search">
+                    </p>
                 </form>
-            </div>
-            
+            </fieldset>
         </div>
     </bod>
 </html>

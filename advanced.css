@@ -12,15 +12,18 @@ div[class="main"]{
 }
 
 input{
-    width: 425px;
+    width: 600px;
     height: 20px;
 }
 
 label{
     display: inline-block;
     width: 200px;
-    margin-top: 1em;
-    font-size: 14px;
+    margin-top: 2em;
+    font-size: 13px;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
 }
 
 input[type="submit"]{
@@ -35,3 +38,13 @@ input[type="submit"]{
     font-weight:bold;
     margin-top: 1em;
 }
+
+p[type="button"]{
+    text-align:right;
+}
+
+fieldset{
+    width:500px;
+    border-color: transparent;
+}
+
