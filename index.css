@@ -30,7 +30,14 @@ input[type="submit"]{
     line-height: 27px;
     height: 36px;
     min-width: 54px;
-    text-align: center;
     cursor: pointer;
     user-select: none;
+}
+
+div[class="search buttons"]{
+    text-align: center;
+}
+
+div[class="image and advanced links"]{
+    text-align: right;
 }

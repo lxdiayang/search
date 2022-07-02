@@ -24,7 +24,7 @@ input[type="text"]{
     font-family: Roboto, arial, sans-serif;
 }
 
-input[type="submit"]{
+input[type="button"]{
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
     border-radius: 4px;
