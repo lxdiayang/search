@@ -26,7 +26,7 @@ label{
     border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
 }
 
-input[type="submit"]{
+input[name="search"]{
     width: 130px;
     height: 20px;
     padding-top: .5em;
@@ -39,8 +39,20 @@ input[type="submit"]{
     margin-top: 1em;
 }
 
-p[type="button"]{
-    text-align:right;
+input[name="back"]{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Roboto, arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    width: 60px;
+    cursor: pointer;
+    user-select: none;
 }
 
 fieldset{
@@ -48,3 +60,6 @@ fieldset{
     border-color: transparent;
 }
 
+p[type="button"]{
+    text-align: right;
+}
